@@ -1,0 +1,26 @@
+name: tests
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.10', '3.11', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -e '.[test]'
+      - run: ruff check src tests examples tools
+      - run: ruff format --check src tests examples tools
+      - run: python -m pytest
+      - run: python -m build
+      - run: python tools/check_installed.py --dist dist --output '${{ runner.temp }}/fallbackledger-installed'

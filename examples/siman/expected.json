@@ -1,0 +1,108 @@
+{
+  "source_url": "https://github.com/UCL/siman/blob/25b00347f5e9f514ad7708e8bb8d1d798a8e0f54/simcheck.dta",
+  "sha256": "07e793f34341e5f5fef57590e405ef62caf5e58e88a6a19acc47374b725a0fb6",
+  "records": 9000,
+  "planned_records": 9000,
+  "missing_planned_records": 0,
+  "duplicate_keys": 0,
+  "point_estimate_eligible": 9000,
+  "na_df_by_design": 6000,
+  "truth": 0,
+  "groups": [
+    {
+      "scenario": "MAR",
+      "method": "Full",
+      "n": 1000,
+      "bias": -0.016895532143185846,
+      "bias_mcse": 0.013736268357307527,
+      "mse": 0.1887818423219855
+    },
+    {
+      "scenario": "MAR",
+      "method": "CCA",
+      "n": 1000,
+      "bias": -0.16011301077206735,
+      "bias_mcse": 0.018363437866516584,
+      "mse": 0.36251481064563396
+    },
+    {
+      "scenario": "MAR",
+      "method": "MI",
+      "n": 1000,
+      "bias": -0.02036487901804503,
+      "bias_mcse": 0.01462049844825812,
+      "mse": 0.21395994419806214
+    },
+    {
+      "scenario": "MCAR",
+      "method": "Full",
+      "n": 1000,
+      "bias": -1.2624437164049596e-05,
+      "bias_mcse": 0.013472706021150738,
+      "mse": 0.18133229388419544
+    },
+    {
+      "scenario": "MCAR",
+      "method": "CCA",
+      "n": 1000,
+      "bias": -0.007534678150084801,
+      "bias_mcse": 0.016323481281870177,
+      "mse": 0.26624635649323186
+    },
+    {
+      "scenario": "MCAR",
+      "method": "MI",
+      "n": 1000,
+      "bias": 8.979491005084129e-05,
+      "bias_mcse": 0.014352477596326334,
+      "mse": 0.20578762760302213
+    },
+    {
+      "scenario": "MNAR",
+      "method": "Full",
+      "n": 1000,
+      "bias": -0.006385251141269691,
+      "bias_mcse": 0.013625421201426346,
+      "mse": 0.18550722224549931
+    },
+    {
+      "scenario": "MNAR",
+      "method": "CCA",
+      "n": 1000,
+      "bias": -0.030153180438908748,
+      "bias_mcse": 0.017038925874751802,
+      "mse": 0.2909438842609026
+    },
+    {
+      "scenario": "MNAR",
+      "method": "MI",
+      "n": 1000,
+      "bias": 0.0486318335703254,
+      "bias_mcse": 0.014531657784910681,
+      "mse": 0.21332296413618923
+    }
+  ],
+  "paired_CCA_minus_MI": [
+    {
+      "scenario": "MAR",
+      "n": 1000,
+      "mean_difference": -0.13974813175402231,
+      "paired_mcse": 0.011345928753014059,
+      "independent_se_wrong_for_pairing": 0.02347285294021443
+    },
+    {
+      "scenario": "MCAR",
+      "n": 1000,
+      "mean_difference": -0.007624473060135643,
+      "paired_mcse": 0.008366010318708567,
+      "independent_se_wrong_for_pairing": 0.02173590702760332
+    },
+    {
+      "scenario": "MNAR",
+      "n": 1000,
+      "mean_difference": -0.07878501400923414,
+      "paired_mcse": 0.009345016173264189,
+      "independent_se_wrong_for_pairing": 0.022394063341498384
+    }
+  ]
+}

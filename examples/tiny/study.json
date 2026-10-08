@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "study_id": "tiny",
+  "estimand": {
+    "id": "theta",
+    "label": "Original scalar",
+    "scale": "real"
+  },
+  "scenarios": [
+    {
+      "id": "s",
+      "truth": 0
+    }
+  ],
+  "methods": [
+    {
+      "id": "A",
+      "version": "1"
+    },
+    {
+      "id": "B",
+      "version": "1"
+    }
+  ],
+  "assumptions": {
+    "independent_cases": true,
+    "finite_second_moments": true,
+    "finite_mse_contribution_variance": true
+  },
+  "nominal_interval_level": 0.95,
+  "metrics": [
+    "bias",
+    "mse",
+    "coverage",
+    "completion"
+  ],
+  "policies": [
+    {
+      "id": "point",
+      "methods": [
+        "A",
+        "B"
+      ],
+      "requirement": "point",
+      "inapplicable": "stop"
+    },
+    {
+      "id": "interval",
+      "methods": [
+        "A",
+        "B"
+      ],
+      "requirement": "interval",
+      "inapplicable": "stop"
+    }
+  ],
+  "cohorts": [
+    {
+      "id": "both",
+      "members": [
+        {
+          "kind": "method",
+          "id": "A"
+        },
+        {
+          "kind": "method",
+          "id": "B"
+        }
+      ],
+      "requirement": "point"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "A-B",
+      "left": {
+        "kind": "method",
+        "id": "A"
+      },
+      "right": {
+        "kind": "method",
+        "id": "B"
+      },
+      "cohort": "both",
+      "metrics": [
+        "bias",
+        "mse"
+      ]
+    }
+  ]
+}

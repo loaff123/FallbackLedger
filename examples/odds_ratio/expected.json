@@ -1,0 +1,353 @@
+{
+  "kind": "adapted_original_probe",
+  "product": false,
+  "seed_scheme": "SeedSequence([20261008, scenario_index])",
+  "enumerated_tables_per_scenario": 23426,
+  "routing_parity": true,
+  "scenarios": [
+    {
+      "px": 0.25,
+      "odds_ratio": 2,
+      "n_observations": 50,
+      "planned_replicates": 100000,
+      "raw_success": 98651,
+      "raw_failure": 1349,
+      "exact_zero_cell_probability": 0.013008791256519544,
+      "method_specific_success": {
+        "raw_log_OR": {
+          "n": 98651,
+          "bias": 0.04639588393492523,
+          "mse": 0.55093947978409,
+          "bias_mcse": 0.0023585947299680408,
+          "bias_minus_population_in_mcse": -0.9152850183746073
+        },
+        "always_add_half": {
+          "n": 100000,
+          "bias": 0.0012620574373922624,
+          "mse": 0.5060547941922242,
+          "bias_mcse": 0.002249573875172515,
+          "bias_minus_population_in_mcse": -0.2031159089685626
+        },
+        "raw_then_add_half": {
+          "n": 100000,
+          "bias": 0.07522242226589897,
+          "mse": 0.6129372732925535,
+          "bias_mcse": 0.002464315185462967,
+          "bias_minus_population_in_mcse": -0.3912637282474497
+        }
+      },
+      "joint_raw_success": {
+        "raw_log_OR": {
+          "n": 98651,
+          "bias": 0.04639588393492523,
+          "mse": 0.55093947978409,
+          "bias_mcse": 0.0023585947299680408
+        },
+        "always_add_half": {
+          "n": 98651,
+          "bias": -0.02857584957868001,
+          "mse": 0.4425954395814267,
+          "bias_mcse": 0.0021161864072694655
+        },
+        "raw_then_add_half": {
+          "n": 98651,
+          "bias": 0.04639588393492523,
+          "mse": 0.55093947978409,
+          "bias_mcse": 0.0023585947299680408
+        }
+      },
+      "enumerated_population": {
+        "raw_log_OR": {
+          "probability_mass": 0.9869912087434617,
+          "bias": 0.04855467035568228,
+          "mse": 0.5535531436439246
+        },
+        "always_add_half": {
+          "probability_mass": 0.9999999999999812,
+          "bias": 0.0017189816798398596,
+          "mse": 0.5053988381430939
+        },
+        "raw_then_add_half": {
+          "probability_mass": 0.9999999999999812,
+          "bias": 0.07618661941294001,
+          "mse": 0.6132509913636084
+        }
+      },
+      "enumerated_joint_raw_success": {
+        "raw_log_OR": {
+          "probability_mass": 0.9869912087434617,
+          "bias": 0.04855467035568228,
+          "mse": 0.5535531436439246
+        },
+        "always_add_half": {
+          "probability_mass": 0.9869912087434617,
+          "bias": -0.026894469488130002,
+          "mse": 0.4442794720396768
+        },
+        "raw_then_add_half": {
+          "probability_mass": 0.9869912087434617,
+          "bias": 0.04855467035568228,
+          "mse": 0.5535531436439246
+        }
+      }
+    },
+    {
+      "px": 0.25,
+      "odds_ratio": 5,
+      "n_observations": 50,
+      "planned_replicates": 100000,
+      "raw_success": 87984,
+      "raw_failure": 12016,
+      "exact_zero_cell_probability": 0.1190853908369707,
+      "method_specific_success": {
+        "raw_log_OR": {
+          "n": 87984,
+          "bias": -0.036222658073277306,
+          "mse": 0.5299900568505213,
+          "bias_mcse": 0.002451298650713031,
+          "bias_minus_population_in_mcse": -1.8120653464028504
+        },
+        "always_add_half": {
+          "n": 100000,
+          "bias": -0.021070465068070542,
+          "mse": 0.6798853808463987,
+          "bias_mcse": 0.002606622739926747,
+          "bias_minus_population_in_mcse": -0.679545417082183
+        },
+        "raw_then_add_half": {
+          "n": 100000,
+          "bias": 0.14613815228310084,
+          "mse": 0.7517975826387534,
+          "bias_mcse": 0.002702681127272158,
+          "bias_minus_population_in_mcse": -0.7333611355868608
+        }
+      },
+      "joint_raw_success": {
+        "raw_log_OR": {
+          "n": 87984,
+          "bias": -0.036222658073277306,
+          "mse": 0.5299900568505213,
+          "bias_mcse": 0.002451298650713031
+        },
+        "always_add_half": {
+          "n": 87984,
+          "bias": -0.22626700403523786,
+          "mse": 0.4482567851279868,
+          "bias_mcse": 0.00212436286601385
+        },
+        "raw_then_add_half": {
+          "n": 87984,
+          "bias": -0.036222658073277306,
+          "mse": 0.5299900568505213,
+          "bias_mcse": 0.002451298650713031
+        }
+      },
+      "enumerated_population": {
+        "raw_log_OR": {
+          "probability_mass": 0.8809146091630126,
+          "bias": -0.03178074473463616,
+          "mse": 0.5274691375158791
+        },
+        "always_add_half": {
+          "probability_mass": 0.9999999999999832,
+          "bias": -0.01929914653109112,
+          "mse": 0.673626494864393
+        },
+        "raw_then_add_half": {
+          "probability_mass": 0.9999999999999832,
+          "bias": 0.14812019358372633,
+          "mse": 0.7465061154586486
+        }
+      },
+      "enumerated_joint_raw_success": {
+        "raw_log_OR": {
+          "probability_mass": 0.8809146091630126,
+          "bias": -0.03178074473463616,
+          "mse": 0.5274691375158791
+        },
+        "always_add_half": {
+          "probability_mass": 0.8809146091630126,
+          "bias": -0.22183246867401493,
+          "mse": 0.44473737232980765
+        },
+        "raw_then_add_half": {
+          "probability_mass": 0.8809146091630126,
+          "bias": -0.03178074473463616,
+          "mse": 0.5274691375158791
+        }
+      }
+    },
+    {
+      "px": 0.5,
+      "odds_ratio": 2,
+      "n_observations": 50,
+      "planned_replicates": 100000,
+      "raw_success": 99994,
+      "raw_failure": 6,
+      "exact_zero_cell_probability": 0.00011101902680431342,
+      "method_specific_success": {
+        "raw_log_OR": {
+          "n": 99994,
+          "bias": 0.034088007457777736,
+          "mse": 0.3905667780734272,
+          "bias_mcse": 0.001973403268630642,
+          "bias_minus_population_in_mcse": -0.3958928034955958
+        },
+        "always_add_half": {
+          "n": 100000,
+          "bias": -0.00027023290163327105,
+          "mse": 0.34957660772071203,
+          "bias_mcse": 0.0018697059407703548,
+          "bias_minus_population_in_mcse": -0.46626870317782887
+        },
+        "raw_then_add_half": {
+          "n": 100000,
+          "bias": 0.03427017854334929,
+          "mse": 0.391111335312823,
+          "bias_mcse": 0.001974691848322988,
+          "bias_minus_population_in_mcse": -0.4686689790115028
+        }
+      },
+      "joint_raw_success": {
+        "raw_log_OR": {
+          "n": 99994,
+          "bias": 0.034088007457777736,
+          "mse": 0.3905667780734272,
+          "bias_mcse": 0.001973403268630642
+        },
+        "always_add_half": {
+          "n": 99994,
+          "bias": -0.000454476536244465,
+          "mse": 0.34902955824812676,
+          "bias_mcse": 0.0018682981171755945
+        },
+        "raw_then_add_half": {
+          "n": 99994,
+          "bias": 0.034088007457777736,
+          "mse": 0.3905667780734272,
+          "bias_mcse": 0.001973403268630642
+        }
+      },
+      "enumerated_population": {
+        "raw_log_OR": {
+          "probability_mass": 0.9998889809731821,
+          "bias": 0.03486926361022329,
+          "mse": 0.39154871429484384
+        },
+        "always_add_half": {
+          "probability_mass": 0.9999999999999863,
+          "bias": 0.0006015524626936049,
+          "mse": 0.35098554140944865
+        },
+        "raw_then_add_half": {
+          "probability_mass": 0.9999999999999863,
+          "bias": 0.03519565535576516,
+          "mse": 0.39253036324710416
+        }
+      },
+      "enumerated_joint_raw_success": {
+        "raw_log_OR": {
+          "probability_mass": 0.9998889809731821,
+          "bias": 0.03486926361022329,
+          "mse": 0.39154871429484384
+        },
+        "always_add_half": {
+          "probability_mass": 0.9998889809731821,
+          "bias": 0.00027131968708800504,
+          "mse": 0.349999279679393
+        },
+        "raw_then_add_half": {
+          "probability_mass": 0.9998889809731821,
+          "bias": 0.03486926361022329,
+          "mse": 0.39154871429484384
+        }
+      }
+    },
+    {
+      "px": 0.5,
+      "odds_ratio": 5,
+      "n_observations": 50,
+      "planned_replicates": 100000,
+      "raw_success": 98672,
+      "raw_failure": 1328,
+      "exact_zero_cell_probability": 0.012900602143326006,
+      "method_specific_success": {
+        "raw_log_OR": {
+          "n": 98672,
+          "bias": 0.0876088742883462,
+          "mse": 0.532032138809485,
+          "bias_mcse": 0.0023052535383702197,
+          "bias_minus_population_in_mcse": -1.0173112612182433
+        },
+        "always_add_half": {
+          "n": 100000,
+          "bias": 0.0011960628142555078,
+          "mse": 0.4877470025287842,
+          "bias_mcse": 0.0022085073001170343,
+          "bias_minus_population_in_mcse": -0.5366188336859621
+        },
+        "raw_then_add_half": {
+          "n": 100000,
+          "bias": 0.11580031928575346,
+          "mse": 0.5921380673057023,
+          "bias_mcse": 0.0024056893829013473,
+          "bias_minus_population_in_mcse": -0.6623556947868182
+        }
+      },
+      "joint_raw_success": {
+        "raw_log_OR": {
+          "n": 98672,
+          "bias": 0.0876088742883462,
+          "mse": 0.532032138809485,
+          "bias_mcse": 0.0023052535383702197
+        },
+        "always_add_half": {
+          "n": 98672,
+          "bias": -0.028537810152526554,
+          "mse": 0.42623610267267004,
+          "bias_mcse": 0.0020764192789184607
+        },
+        "raw_then_add_half": {
+          "n": 98672,
+          "bias": 0.0876088742883462,
+          "mse": 0.532032138809485,
+          "bias_mcse": 0.0023052535383702197
+        }
+      },
+      "enumerated_population": {
+        "raw_log_OR": {
+          "probability_mass": 0.9870993978566628,
+          "bias": 0.08995403467289342,
+          "mse": 0.5294874165210769
+        },
+        "always_add_half": {
+          "probability_mass": 0.9999999999999887,
+          "bias": 0.0023811894258312437,
+          "mse": 0.4835925152180772
+        },
+        "raw_then_add_half": {
+          "probability_mass": 0.9999999999999887,
+          "bias": 0.11739374134840636,
+          "mse": 0.5883253675618172
+        }
+      },
+      "enumerated_joint_raw_success": {
+        "raw_log_OR": {
+          "probability_mass": 0.9870993978566628,
+          "bias": 0.08995403467289342,
+          "mse": 0.5294874165210769
+        },
+        "always_add_half": {
+          "probability_mass": 0.9870993978566628,
+          "bias": -0.02656163960702831,
+          "mse": 0.42338578929776954
+        },
+        "raw_then_add_half": {
+          "probability_mass": 0.9870993978566628,
+          "bias": 0.08995403467289342,
+          "mse": 0.5294874165210769
+        }
+      }
+    }
+  ]
+}

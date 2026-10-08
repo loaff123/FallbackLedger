@@ -1,0 +1,92 @@
+{
+  "platform": "Linux cloud container, Python 3.12.14",
+  "tests_passed": 101,
+  "independent_oracle_routes": 2048,
+  "studies": [
+    {
+      "study": "odds_ratio",
+      "scenario": "px0.25_or2",
+      "planned": 100000,
+      "records": 200000,
+      "raw_failures": 1349,
+      "checks": "Exact route counts and frozen bias/MSE/bias-MCSE/conditional-cohort agreement",
+      "input_sha256": {
+        "study.json": "f65f100596b65180c46c03a8ec779c3e672594dac9e859597cde2325343bb481",
+        "planned.csv": "44c240439f966b67aea0e529da0542adfd27828f4270aed953486839857200f7",
+        "native_results.csv": "ed758ff6f79ff991f12472dacdb7e3dceb29cc5d7a847321606f9d6315324ef5",
+        "mapping.json": "ee6edd5b1cfb37ee14857c3854428190d5886adb1fe70554ce88af20d624258e"
+      },
+      "report_bytes": 261678377,
+      "summarize_seconds": 37.375651385998935,
+      "peak_rss_kib_linux": 258016
+    },
+    {
+      "study": "odds_ratio",
+      "scenario": "px0.25_or5",
+      "planned": 100000,
+      "records": 200000,
+      "raw_failures": 12016,
+      "checks": "Exact route counts and frozen bias/MSE/bias-MCSE/conditional-cohort agreement",
+      "input_sha256": {
+        "study.json": "38ce145d2fcb0823412046cb28d51dd8e4b29c9b9615feab330f78d58e2c3fcb",
+        "planned.csv": "8350f470c37e785f616cd4acf6b53c5867ef8ec82c686cfcdf1ba497a20c3ea5",
+        "native_results.csv": "a9b0b93a77d6f482e15d5134df1788d967a275fe2091b3b50c968d35882aca82",
+        "mapping.json": "ee6edd5b1cfb37ee14857c3854428190d5886adb1fe70554ce88af20d624258e"
+      },
+      "report_bytes": 279251944,
+      "summarize_seconds": 49.45248073199764,
+      "peak_rss_kib_linux": 259260
+    },
+    {
+      "study": "odds_ratio",
+      "scenario": "px0.5_or2",
+      "planned": 100000,
+      "records": 200000,
+      "raw_failures": 6,
+      "checks": "Exact route counts and frozen bias/MSE/bias-MCSE/conditional-cohort agreement",
+      "input_sha256": {
+        "study.json": "06230f21353ff9aca592160e962af3e3964f623c293cddaebbbcd1a631aaeb34",
+        "planned.csv": "46d50d068275cafdde885199efcee91054ad09a12a9ed1930d7cd33c9ad46f28",
+        "native_results.csv": "cffe6d1454b053b701b41f14e2aec615506ec3afa54508b4f29e1e9af084dbde",
+        "mapping.json": "ee6edd5b1cfb37ee14857c3854428190d5886adb1fe70554ce88af20d624258e"
+      },
+      "report_bytes": 257657215,
+      "summarize_seconds": 30.894572137003706,
+      "peak_rss_kib_linux": 258044
+    },
+    {
+      "study": "odds_ratio",
+      "scenario": "px0.5_or5",
+      "planned": 100000,
+      "records": 200000,
+      "raw_failures": 1328,
+      "checks": "Exact route counts and frozen bias/MSE/bias-MCSE/conditional-cohort agreement",
+      "input_sha256": {
+        "study.json": "8797e16ac8273935e7545d369164ef46f14218e60aa190fbed9cd4cbfa53105f",
+        "planned.csv": "2ce960c0ff5361b33a8b3c4d50bf918f6cdbbf7543093f0189bd5cd810a9f603",
+        "native_results.csv": "bcdfdc43078c1a395e72f58b496b13f85c6377ae593264dd416dfa8b1eca150e",
+        "mapping.json": "ee6edd5b1cfb37ee14857c3854428190d5886adb1fe70554ce88af20d624258e"
+      },
+      "report_bytes": 259768960,
+      "summarize_seconds": 33.7123598649996,
+      "peak_rss_kib_linux": 258016
+    },
+    {
+      "study": "siman",
+      "planned": 3000,
+      "records": 9000,
+      "missing_df_preserved": 6000,
+      "checks": "Nine n1000 groups and three paired contrasts match independently frozen source summaries",
+      "input_sha256": {
+        "study.json": "00c7a759d9888f7b134485b027e04f6bac87594a0b05cd7e10bc90481be576f8",
+        "planned.csv": "a1a3e0d366e0a0c47dc39d718f5e46319da483846b6b8f1a80ec5bea53148a79",
+        "native_results.csv": "bb87a7d4dd22daf8c829dfa01e8f291c1f33d785ed564e4105ee2ddc16a359fe",
+        "mapping.json": "e53a2e187c89fed691db18d602cf053d83b154bf9bceb07ceba7dd94d7a5beac"
+      },
+      "source_sha256": "07e793f34341e5f5fef57590e405ef62caf5e58e88a6a19acc47374b725a0fb6",
+      "report_bytes": 2907794,
+      "summarize_seconds": 0.7297197290026816,
+      "peak_rss_kib_linux": 30856
+    }
+  ]
+}

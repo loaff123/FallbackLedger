@@ -1,0 +1,7 @@
+include README.md LICENSE
+recursive-include docs *.md *.json
+recursive-include examples *.py *.md *.json *.jsonl *.csv
+recursive-include tests *.py
+recursive-include tools *.py *.R
+prune docs/superpowers
+prune docs/qualification
